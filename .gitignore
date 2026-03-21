@@ -1,0 +1,5 @@
+.browser_profile/
+state.json
+monitor.log
+__pycache__/
+*.pyc
