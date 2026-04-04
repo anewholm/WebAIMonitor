@@ -66,6 +66,11 @@ Message history is stored in `state.json` in the script directory. Delete it to 
 - Requires a persistent browser session; the QR code must be re-scanned if the session expires.
 - Claude CLI must be authenticated (`claude auth`) before use.
 - Scans only `PM.md` files in `/var/www/*/` and `~/Software/*/` — subdirectories are not traversed.
+- Polling interval is 5 seconds per contact. For large contact lists this can be slow.
+
+## Important notes
+
+**WhatsApp Terms of Service:** Automated messaging via WhatsApp Web may violate WhatsApp's Terms of Service. This tool is intended for personal/internal project management use where all parties are aware of and consent to AI-assisted replies. It is not intended for bulk messaging or spam. Use responsibly.
 
 ## License
 
