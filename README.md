@@ -2,7 +2,7 @@
 
 A Python daemon that monitors WhatsApp Web for client messages and replies using the Claude AI CLI. Each software project registers a `PM.md` file containing the client's WhatsApp contact name and a system prompt describing the project context. When a new message arrives from that contact, Claude generates a reply and sends it back automatically.
 
-> **Architecture note:** This tool was developed by a systems architect who directed Claude to write the implementation without knowing the target language syntax — an example of architecture-led AI development where the design decisions drive the code, not the other way around.
+> **Architecture note:** This tool was developed using architecture-led AI development — a systems architect defined the design, data flow, and interfaces, then directed Claude to write the implementation. The design decisions drive the code, not the other way around.
 
 ## What it does
 
