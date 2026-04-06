@@ -1,5 +1,7 @@
 # WebAI Monitor — AI-driven project management via WhatsApp
 
+![Human guided AI](human-guided-ai.png "Human guided AI")
+
 A Python daemon that monitors WhatsApp Web for client messages and replies using the Claude AI CLI. Each software project registers a `PM.md` file containing the client's WhatsApp contact name and a system prompt describing the project context. When a new message arrives from that contact, Claude generates a reply and sends it back automatically.
 
 > **Architecture note:** This tool was developed using architecture-led AI development — a systems architect defined the design, data flow, and interfaces, then directed Claude to write the implementation. The design decisions drive the code, not the other way around.
